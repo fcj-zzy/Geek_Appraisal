@@ -5,10 +5,10 @@ int main(int argc, char *argv[]) {
 int n=10000;
  int i;
  double x=0; 
- double a;
- scanf("%lf",&a);
- double h;
- scanf("%lf",&h);
+ double a=2.0;
+ //scanf("%lf",&a);
+ double h=0.001;
+ //scanf("%lf",&h);
  double y[10000]={a}; 
  for(i=1;1;i++){
   y[i]=y[i-1]-h*y[i-1];
