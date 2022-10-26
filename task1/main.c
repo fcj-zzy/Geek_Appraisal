@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
    if(y[i-1]-y[i]<0.001*h)
    break;
  printf("x=%f y(%d)=%.10f\n",x,i,y[i]);//输出范围内所有y 
-}	
+}
 	return 0;
 }
 
